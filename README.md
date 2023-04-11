@@ -13,3 +13,8 @@ QReader is an Android application that allows users to scan QR codes using their
 ## Code
 
 The code for QReader includes a `processImageForQrCode()` method that takes a bitmap image as input, converts it to a byte array, decodes it using a QR code scanning library, and handles the decoded result by storing it in the Room Database and displaying it to the user. The code also uses a ViewModel (`linkVM`) to communicate with the Room Database and store/retrieve the decoded results, and a `showResultDialog()` function to display the decoded contents in a dialog to the user.
+
+
+## Screenshot
+
+![screenshot](https://user-images.githubusercontent.com/69902076/231161162-99adcb64-dbef-46f5-adf4-03f0f382c1b7.jpg)
