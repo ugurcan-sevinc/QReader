@@ -17,4 +17,4 @@ The code for QReader includes a `processImageForQrCode()` method that takes a bi
 
 ## Screenshot
 
-![screenshot](https://user-images.githubusercontent.com/69902076/231161162-99adcb64-dbef-46f5-adf4-03f0f382c1b7.jpg)
+<img src="https://user-images.githubusercontent.com/69902076/231161162-99adcb64-dbef-46f5-adf4-03f0f382c1b7.jpg" alt="QReader Screenshot" width="270" height="585">
