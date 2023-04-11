@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@drawable/row_oldscans_background"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- TODO 10.04.2023, 17:25 Add Name Support To Link History -->
+
+    <TextView
+        android:id="@+id/linkTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkGray"
+        android:textSize="16sp"
+        android:layout_marginEnd="5dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/copyButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="http://www.google.com" />
+
+    <ImageButton
+        android:id="@+id/copyButton"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_copy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/app_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QReader</string>
+    <string name="greetings">Welcome to QReader!</string>
+    <string name="textOldScans">Previous Links</string>
+    <string name="clear">Clear</string>
+    <string name="greetingsContent">Welcome to QReader! You can scan QR codes with your camera or upload from your gallery. </string>
+    <string name="scanWithCamera"> Scan With Camera </string>
+    <string name="uploadFromGallery"> Upload From Gallery </string>
+</resources>
